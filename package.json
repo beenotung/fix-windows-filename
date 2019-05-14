@@ -3,14 +3,13 @@
   "version": "1.0.0",
   "description": "Fix filename for Windows System",
   "keywords": [],
-  "author": {
-    "name": "Beeno Tung",
-    "email": "aabbcc1241@yahoo.com.hk",
-    "url": "https://beeno-tung.surge.sh"
-  },
+  "author": "Beeno Tung <aabbcc1241@yahoo.com.hk> (https://beeno-tung.surge.sh)",
   "license": "BSD-2-Clause",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "bin": {
+    "fix-windows-filename": "dist/cli.js"
+  },
   "scripts": {
     "test": "npm run rawtest",
     "clean": "rimraf node_modules/@beenotung/tslib/index.* dist",
@@ -43,5 +42,13 @@
     "tslint": "^5.16.0",
     "tslint-eslint-rules": "^5.4.0",
     "typescript": "^3.4.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beenotung/fix-windows-filename.git"
+  },
+  "bugs": {
+    "url": "https://github.com/beenotung/fix-windows-filename/issues"
+  },
+  "homepage": "https://github.com/beenotung/fix-windows-filename#readme"
 }
